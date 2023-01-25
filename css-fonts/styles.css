@@ -1,0 +1,12 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+  font-family: 'Unbounded', cursive;
+  font-style: italic;
+}
+
+p {
+  line-height: 1.5em;
+}
