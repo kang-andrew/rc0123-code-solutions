@@ -2,7 +2,8 @@ body {
   font-family: "Brandon Grotesque", sans-serif;
   font-style: normal;
   font-weight: normal;
-  text-align: center;
+  margin: 0 auto;
+  width: 584px;
 }
 
 header h1 {
@@ -11,6 +12,7 @@ header h1 {
   font-style: normal;
   font-weight: 500;
   color: #ec5d57;
+  margin-left: 10rem;
 }
 
 label {
@@ -26,6 +28,7 @@ input {
   margin-bottom: 15px;
   border: 1px solid #a6aaa9;
   border-radius: 5px;
+  padding-left: 0.4rem;
 }
 
 select {
@@ -39,7 +42,6 @@ select {
 
 input::placeholder {
   font-size: 0.9rem;
-  padding-left: 6px;
   color: #aaa;
 }
 
@@ -58,20 +60,12 @@ button {
   text-transform: uppercase;
 }
 
-.email > label {
-  margin-right: 23rem;
-}
-
-.name > label {
-  margin-right: 27rem;
-}
-
-.hiring > label {
-  margin-right: 20rem;
+.form-control > label {
+  margin-left: 0.4rem;
 }
 
 .engineers > label {
-  margin-right: 6rem;
+  margin-left: 0.4rem;
 }
 
 .engineers select {
