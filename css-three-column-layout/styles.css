@@ -1,5 +1,5 @@
 .container {
-  max-width: 1500px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: #1996da;
 }
@@ -31,6 +31,15 @@
   padding: 30px;
 }
 
+.img {
+  margin: 0 5rem;
+}
+
 img {
-  width: 70px;
+  width: 60px;
+}
+
+p {
+  color: #cfd8dd;
+  padding: 0 0.6rem 2rem;
 }
