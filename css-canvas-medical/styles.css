@@ -64,6 +64,7 @@
 
 .hero-container {
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .overlay {
