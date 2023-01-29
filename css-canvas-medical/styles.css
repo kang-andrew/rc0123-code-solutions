@@ -83,7 +83,7 @@
   opacity: 0.8;
 }
 
-.article-container {
+.hero-text-container {
   position: absolute;
   top: 3rem;
   left: 4rem;
@@ -91,13 +91,13 @@
   width: 40%;
 }
 
-.article-container h2 {
+.hero-text-container h2 {
   font-family: "Tiempos Headline", sans-serif;
   font-weight: lighter;
   letter-spacing: 0.05rem;
 }
 
-.article-container p {
+.hero-text-container p {
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
@@ -112,4 +112,20 @@
   background-color: #294464;
   color: white;
   border: none;
+}
+
+.text-container {
+  text-align: center;
+  margin-left: 19rem;
+  background-color: #fafafa;
+}
+
+.text-container h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: lighter;
+  color: #6e6e6e;
+}
+
+.text-container p {
+  color: #717171;
 }
