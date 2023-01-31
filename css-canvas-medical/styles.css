@@ -18,8 +18,10 @@
 }
 
 .line {
+  position: relative;
   border: 1px solid rgb(241 238 238);
   margin-bottom: 3rem;
+  left: -0.4rem;
 }
 
 .logo-container {
@@ -28,7 +30,7 @@
 }
 
 .logo-container .logo {
-  width: 7rem;
+  width: 6rem;
 }
 
 .nav-link-container {
@@ -54,7 +56,7 @@
 
 .contact-button-container {
   width: 7rem;
-  margin-left: 5px;
+  margin-right: 0.9rem;
 }
 
 .contact-button {
@@ -159,6 +161,7 @@
 .left-text-container {
   position: absolute;
   top: -1rem;
+  left: 2.5rem;
 }
 
 .left-text-container h2 {
@@ -174,7 +177,7 @@
 
 .bottom-button-container {
   position: absolute;
-  right: 1rem;
+  right: 3rem;
 }
 
 .bottom-button-container button {
@@ -203,7 +206,7 @@
   padding-bottom: 2rem;
 }
 
-.column-two-thirds .adress {
+.column-two-thirds .address {
   color: white;
   font-size: 0.7rem;
   padding-bottom: 5rem;
@@ -215,6 +218,53 @@
   font-size: 0.8rem;
   background-color: #525351;
   position: absolute;
-  top: 2rem;
-  right: 20rem;
+  top: 2.4rem;
+  right: 25rem;
+}
+
+.column-thirds > .text-container .about {
+  position: absolute;
+  top: 4rem;
+  right: 0.5rem;
+  text-decoration: none;
+  color: white;
+  width: 3.5rem;
+}
+
+.column-thirds > .text-container .blog {
+  position: absolute;
+  top: 6rem;
+  right: 2.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.column-thirds-end-container {
+  color: white;
+  position: absolute;
+  font-size: 0.7rem;
+  top: 3.9rem;
+  line-height: 2rem;
+  right: 10rem;
+}
+
+.product-link-container .product {
+  text-decoration: none;
+  color: white;
+}
+
+.implementation-link-container .implementation {
+  text-decoration: none;
+  color: white;
+}
+
+.column-half .column-fourth {
+  padding: 2rem 0;
+  font-size: 0.8rem;
+}
+
+.column-half .column-fourth a {
+  padding-left: 2rem;
+  text-decoration: none;
+  color: #717171;
 }
