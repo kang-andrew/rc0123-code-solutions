@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DMS Sans", sans-serif;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding-left: 3rem;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.column-fifths {
+  flex-basis: 20%;
+  display: flex;
+  align-items: flex-end;
+}
+
+span {
+  color: #dadada;
+}
+
+.text-container {
+  display: flex;
+}
+
+.price {
+  background-color: #fff2e6;
+}
+
+.msrp {
+  text-decoration: line-through;
+  color: #dadada;
+  padding-left: 10px;
+}
+
+img {
+  width: 100%;
+}
