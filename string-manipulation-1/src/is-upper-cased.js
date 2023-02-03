@@ -1,9 +1,10 @@
 /* exported isUpperCased */
 
 /*
-  check if the `word` argument is equal to the toUpperCase method of the word object.
-    return the value true if it is.
-  return the value false if it is not.
+  Define a function, named `isUpperCased`, that accepts one argument `word`.
+    check if every letter in the argument `word` is capitalized.
+    return true if they are all capital letters.
+  return false if they are not all capital letters.
 */
 
 function isUpperCased(word) {
