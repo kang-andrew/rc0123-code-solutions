@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef9f1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.light-bulb {
+  background-color: #faea84;
+  height: 12rem;
+  width: 12rem;
+  border: none;
+  border-radius: 10rem;
+  box-shadow: 0 0 10px 7px rgb(254 243 193);
+}
+
+.light-bulb.off {
+  background-color: #222224;
+  height: 12rem;
+  width: 12rem;
+  border: none;
+  border-radius: 10rem;
+  box-shadow: 0 -5px 2px 5px #0c0c0c;
+}
+
+.modal {
+  display: none;
+}
+
+.modal.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(12 12 12 / 95%);
+}
