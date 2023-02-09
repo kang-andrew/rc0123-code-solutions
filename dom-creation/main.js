@@ -61,12 +61,10 @@ function renderPokemon(pokemon) {
   var $columnThirdCreate = document.createElement('div');
   $columnThirdCreate.setAttribute('class', 'column-third');
 
-  // var $columnThirdSelect = document.querySelector('.column-third');
   var $pokemonCardCreate = document.createElement('div');
   $pokemonCardCreate.setAttribute('class', 'pokemon-card');
   $columnThirdCreate.appendChild($pokemonCardCreate);
 
-  // var $pokemonCardSelect = document.querySelector('.pokemon-card');
   var $imgCreate = document.createElement('img');
   $imgCreate.setAttribute('src', pokemon.imageUrl);
   $pokemonCardCreate.appendChild($imgCreate);
@@ -75,7 +73,6 @@ function renderPokemon(pokemon) {
   $pokemonCardTextCreate.setAttribute('class', 'pokemon-card-text');
   $pokemonCardCreate.appendChild($pokemonCardTextCreate);
 
-  // var $pokemonCardTextSelect = document.querySelector('.pokemon-card-text');
   var $h2 = document.createElement('h2');
   var $h2Text = document.createTextNode(pokemon.name);
   $h2.appendChild($h2Text);
