@@ -1,9 +1,14 @@
 /* exported capitalizeWords */
 function capitalizeWords(string) {
   var result = '';
-  var splitWords = string.split(' ');
-  for (var i = 0; i < string.length; i++) {
-    result += splitWords[i][0].toUpperCase() + splitWords[i][1].toLowerCase();
+  result += string[0].toUpperCase();
+
+  for (var i = 1; i < string.length; i++) {
+    if (string[i - 1] === ' ') {
+      result += string[i].toUpperCase();
+    } else {
+      result += string[i].toLowerCase();
+    }
   }
   return result;
 }
